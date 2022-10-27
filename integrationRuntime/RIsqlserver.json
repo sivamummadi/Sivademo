@@ -1,0 +1,7 @@
+{
+	"name": "RIsqlserver",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "sql server run time integration"
+	}
+}
