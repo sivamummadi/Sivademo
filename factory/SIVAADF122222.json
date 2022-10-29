@@ -1,0 +1,9 @@
+{
+	"name": "SIVAADF122222",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "false"
+		}
+	},
+	"location": "eastus"
+}
