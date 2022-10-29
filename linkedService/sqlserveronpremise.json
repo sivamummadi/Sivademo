@@ -1,0 +1,18 @@
+{
+	"name": "sqlserveronpremise",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "sqlserveronpremise",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=DESKTOP-NUDED6T\\SQLEXPRESS;initial catalog=model",
+			"userName": "MUMMADI",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5M2NiNjg5Zi1hZDFmLTQxY2YtOWNiMi1jYTcxYWI1NDEyOGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "RIsqlserver",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
